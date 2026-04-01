@@ -10,4 +10,3 @@ def modify_guest_list(
         atualizar_listas[index] =new_guest
 
     return atualizar_listas
-
