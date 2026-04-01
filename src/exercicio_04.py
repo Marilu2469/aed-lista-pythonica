@@ -4,3 +4,5 @@ def format_name(name: str) -> tuple[str, str, str]:
     title = name.title()
     return(lower, upper, title)
 
+
+
