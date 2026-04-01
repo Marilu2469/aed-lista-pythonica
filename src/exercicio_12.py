@@ -5,3 +5,4 @@ def add_guests(
     atualizar_listas = guests.copy()
     atualizar_listas.extend(new_guests)
     return atualizar_listas
+
