@@ -3,15 +3,11 @@ def modify_guest_list(
     unavailable: str,
     new_guest: str
 ) -> list[str]:
-    """
-    Substitui um convidado indisponível por outro.
+    atualizar_listas = guests.copy()
 
-    Args:
-        guests (list[str]): lista original
-        unavailable (str): convidado a ser removido
-        new_guest (str): novo convidado
+    if unavailable in atualizar_listas:
+        index = atualizar_listas.index(unavailable)
+        atualizar_listas[index] =new_guest
 
-    Returns:
-        list[str]: lista atualizada
-    """
-    pass
+    return atualizar_listas
+
